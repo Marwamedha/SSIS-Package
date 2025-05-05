@@ -91,7 +91,9 @@ The data warehouse integrates information from multiple sources into a centraliz
    - Load `DimDate`:
      ![Dim Date](https://github.com/Marwamedha/SSIS-Package/blob/main/ETL_Package/dim_date.jpeg?raw=true)
    - Load `FactSales`:
-     ![Fact Sales Package](https://github.com/Marwamedha/SSIS-Package/blob/main/ETL_Package/fact_table.jpeg?raw=true)
+     ![Fact Sales Package_full_load](https://github.com/Marwamedha/SSIS-Package/blob/main/ETL_Package/fact_table.jpeg?raw=true)
+   - Incremental_Load `FactSales`:
+     ![Fact Sales Package_Incremental_Load ](https://github.com/Marwamedha/SSIS-Package/blob/main/ETL_Package/fact_table.jpeg?raw=true)
 
 ---
 
