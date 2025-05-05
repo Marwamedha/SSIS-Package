@@ -2,7 +2,7 @@
 # 🏬 Stores Data Warehouse
 
 ## 📘 Overview
-This project demonstrates the complete lifecycle of building a data warehouse solution, covering:
+This project showcases the entire lifecycle of developing a data warehouse solution, from initial design to final implementation:
 
 - Data Modeling
 - ETL (Extract, Transform, Load) using SSIS
