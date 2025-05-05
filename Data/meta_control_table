@@ -1,0 +1,19 @@
+USE EO_AdventureWorksDW2014;
+GO
+
+-- Create control table
+IF EXISTS (SELECT * FROM sys.tables WHERE type = 'U' AND name = 'meta_control_table')
+    DROP TABLE meta_control_table;
+
+CREATE TABLE meta_control_table (
+    id INT IDENTITY(1,1),
+    source_table NVARCHAR(50) NOT NULL,
+    last_load_date DATETIME
+);
+
+-- Insert initial record into control table
+INSERT INTO meta_control_table (source_table, last_load_date)
+VALUES ('sales order header', '1900-01-01');
+
+-- View control table contents
+SELECT * FROM meta_control_table;
